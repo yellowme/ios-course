@@ -14,15 +14,18 @@ class MasterViewController: UITableViewController {
     // MARK: - Variables
     var cellIdentifier = "Cell"
     
-    var dataSource: MoviesDataSource<Movie>?
-    var cellDecorator: MovieCellDecorator?
+    /*var dataSource: MoviesDataSource<Movie>? =
+        MoviesDataSource(array: DataHelper.provideSimpleMovies())
+    var cellDecorator: MovieCellDecorator? = SimpleMovieCellDecorator()*/
+    
+    var dataSource: MoviesDataSource<Movie>? =
+        MoviesDataSource(array: DataHelper.provideEmojiMovies())
+    var cellDecorator: MovieCellDecorator? = EmojiMovieCellDecorator()
     
     // MARK: - Controller
     
     override func viewDidLoad() {
         title = "Las mejores películas"
-        dataSource = MoviesDataSource(array: DataHelper.provideEmojiMovies())
-        cellDecorator = SimpleMovieCellDecorator()
     }
     
 }
@@ -49,7 +52,6 @@ extension MasterViewController {
         
         let movie = dataSource?.modelAt(indexPath: indexPath)
         cellDecorator?.decorate(cell: cell, using: movie)
-        
         return cell
     }
 }
@@ -57,16 +59,14 @@ extension MasterViewController {
 // MARK: - Cell
 extension MasterViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    
         guard let movie = dataSource?.modelAt(indexPath: indexPath) else { return }
         
-        let detailViewController = getController(
+        let detailController = getController(
             named: "DetailViewController",
             from: "Main"
         ) as! DetailViewController
-        
-        detailViewController.movieName = movie.name
-        
-        navigationController?.pushViewController(detailViewController, animated: true)
+    
+        detailController.message = movie.name
+        navigationController?.pushViewController(detailController, animated: true)
     }
 }

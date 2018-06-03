@@ -12,16 +12,17 @@
 		5196D84820C1B837006ECE58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5196D84720C1B837006ECE58 /* Assets.xcassets */; };
 		5196D84B20C1B837006ECE58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5196D84920C1B837006ECE58 /* LaunchScreen.storyboard */; };
 		5196D85520C1E89D006ECE58 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196D85420C1E89D006ECE58 /* Movie.swift */; };
+		5196D85720C1E8BD006ECE58 /* SimpleMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196D85620C1E8BD006ECE58 /* SimpleMovie.swift */; };
 		5196D85920C1E8DA006ECE58 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196D85820C1E8DA006ECE58 /* DataSource.swift */; };
 		5196D85B20C1E8F7006ECE58 /* MoviesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196D85A20C1E8F7006ECE58 /* MoviesDataSource.swift */; };
 		5196D85D20C1E918006ECE58 /* MovieCellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196D85C20C1E918006ECE58 /* MovieCellDecorator.swift */; };
+		5196D85F20C1E93D006ECE58 /* SimpleMovieCellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196D85E20C1E93D006ECE58 /* SimpleMovieCellDecorator.swift */; };
 		5196D86120C1E96F006ECE58 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196D86020C1E96F006ECE58 /* MasterViewController.swift */; };
 		5196D86320C1EA1A006ECE58 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196D86220C1EA1A006ECE58 /* DetailViewController.swift */; };
+		5196D86520C1EA4A006ECE58 /* EmojiMovieRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196D86420C1EA4A006ECE58 /* EmojiMovieRepresentation.swift */; };
+		5196D86720C1EA65006ECE58 /* EmojiMovieCellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196D86620C1EA65006ECE58 /* EmojiMovieCellDecorator.swift */; };
 		A04EC48820C24EF400B18106 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EC48720C24EF400B18106 /* DataHelper.swift */; };
-		A04EC48B20C256B000B18106 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EC48A20C256B000B18106 /* UIViewController+Ext.swift */; };
-		A061F5BE20C315090037EBBE /* SimpleMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A061F5BD20C315090037EBBE /* SimpleMovie.swift */; };
-		A061F5C020C3171F0037EBBE /* SimpleMovieCellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A061F5BF20C3171F0037EBBE /* SimpleMovieCellDecorator.swift */; };
-		A061F5C220C31ED50037EBBE /* EmojiMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A061F5C120C31ED50037EBBE /* EmojiMovie.swift */; };
+		A04EC48E20C256D300B18106 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EC48D20C256D300B18106 /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,16 +33,17 @@
 		5196D84A20C1B837006ECE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5196D84C20C1B837006ECE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5196D85420C1E89D006ECE58 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		5196D85620C1E8BD006ECE58 /* SimpleMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMovie.swift; sourceTree = "<group>"; };
 		5196D85820C1E8DA006ECE58 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		5196D85A20C1E8F7006ECE58 /* MoviesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDataSource.swift; sourceTree = "<group>"; };
 		5196D85C20C1E918006ECE58 /* MovieCellDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellDecorator.swift; sourceTree = "<group>"; };
+		5196D85E20C1E93D006ECE58 /* SimpleMovieCellDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMovieCellDecorator.swift; sourceTree = "<group>"; };
 		5196D86020C1E96F006ECE58 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		5196D86220C1EA1A006ECE58 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5196D86420C1EA4A006ECE58 /* EmojiMovieRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMovieRepresentation.swift; sourceTree = "<group>"; };
+		5196D86620C1EA65006ECE58 /* EmojiMovieCellDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMovieCellDecorator.swift; sourceTree = "<group>"; };
 		A04EC48720C24EF400B18106 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
-		A04EC48A20C256B000B18106 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
-		A061F5BD20C315090037EBBE /* SimpleMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMovie.swift; sourceTree = "<group>"; };
-		A061F5BF20C3171F0037EBBE /* SimpleMovieCellDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMovieCellDecorator.swift; sourceTree = "<group>"; };
-		A061F5C120C31ED50037EBBE /* EmojiMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMovie.swift; sourceTree = "<group>"; };
+		A04EC48D20C256D300B18106 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,7 @@
 		5196D83F20C1B830006ECE58 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				A04EC48920C256A300B18106 /* Extensions */,
+				A04EC48C20C256C800B18106 /* Extensions */,
 				A04EC48420C24E4D00B18106 /* Data */,
 				A04EC48520C24E4D00B18106 /* Decorators */,
 				A04EC48620C24E4D00B18106 /* Domain */,
@@ -111,7 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				5196D85C20C1E918006ECE58 /* MovieCellDecorator.swift */,
-				A061F5BF20C3171F0037EBBE /* SimpleMovieCellDecorator.swift */,
+				5196D85E20C1E93D006ECE58 /* SimpleMovieCellDecorator.swift */,
+				5196D86620C1EA65006ECE58 /* EmojiMovieCellDecorator.swift */,
 			);
 			path = Decorators;
 			sourceTree = "<group>";
@@ -120,16 +123,16 @@
 			isa = PBXGroup;
 			children = (
 				5196D85420C1E89D006ECE58 /* Movie.swift */,
-				A061F5BD20C315090037EBBE /* SimpleMovie.swift */,
-				A061F5C120C31ED50037EBBE /* EmojiMovie.swift */,
+				5196D85620C1E8BD006ECE58 /* SimpleMovie.swift */,
+				5196D86420C1EA4A006ECE58 /* EmojiMovieRepresentation.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
 		};
-		A04EC48920C256A300B18106 /* Extensions */ = {
+		A04EC48C20C256C800B18106 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				A04EC48A20C256B000B18106 /* UIViewController+Ext.swift */,
+				A04EC48D20C256D300B18106 /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -205,18 +208,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A061F5BE20C315090037EBBE /* SimpleMovie.swift in Sources */,
 				5196D85B20C1E8F7006ECE58 /* MoviesDataSource.swift in Sources */,
+				A04EC48E20C256D300B18106 /* UIViewController+Ext.swift in Sources */,
 				A04EC48820C24EF400B18106 /* DataHelper.swift in Sources */,
-				A061F5C220C31ED50037EBBE /* EmojiMovie.swift in Sources */,
 				5196D84120C1B830006ECE58 /* AppDelegate.swift in Sources */,
+				5196D85720C1E8BD006ECE58 /* SimpleMovie.swift in Sources */,
 				5196D85920C1E8DA006ECE58 /* DataSource.swift in Sources */,
 				5196D86120C1E96F006ECE58 /* MasterViewController.swift in Sources */,
 				5196D85520C1E89D006ECE58 /* Movie.swift in Sources */,
+				5196D86720C1EA65006ECE58 /* EmojiMovieCellDecorator.swift in Sources */,
 				5196D86320C1EA1A006ECE58 /* DetailViewController.swift in Sources */,
+				5196D86520C1EA4A006ECE58 /* EmojiMovieRepresentation.swift in Sources */,
+				5196D85F20C1E93D006ECE58 /* SimpleMovieCellDecorator.swift in Sources */,
 				5196D85D20C1E918006ECE58 /* MovieCellDecorator.swift in Sources */,
-				A061F5C020C3171F0037EBBE /* SimpleMovieCellDecorator.swift in Sources */,
-				A04EC48B20C256B000B18106 /* UIViewController+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

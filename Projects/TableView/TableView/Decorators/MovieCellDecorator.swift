@@ -10,5 +10,5 @@ import Foundation
 import UIKit
 
 protocol MovieCellDecorator {
-    func decorate(cell: UITableViewCell, using movie: Movie?)
+    func decorate(cell: UITableViewCell, using model: Movie?)
 }

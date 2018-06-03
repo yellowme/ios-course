@@ -1,5 +1,5 @@
 //
-//  MovieCellDecorator.swift
+//  Movie.swift
 //  TableView
 //
 //  Created by Erick A. Montañez  on 6/1/18.
@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import UIKit
 
-protocol MovieCellDecorator {
-    func decorate(cell: UITableViewCell, using movie: Movie?)
+protocol Movie {
+    var id: String { get }
+    var name: String { get }
 }

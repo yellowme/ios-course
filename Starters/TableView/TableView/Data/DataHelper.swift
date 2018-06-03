@@ -11,7 +11,11 @@ import Foundation
 
 class DataHelper {
     static func provideSimpleMovies() -> [Movie] {
-        return []
+        return [
+            SimpleMovie(id: "1", name: "Volver al futuro"),
+            SimpleMovie(id: "2", name: "Planeta de los simios"),
+            SimpleMovie(id: "3", name: "Harry Potter")
+        ]
     }
     
     /*
@@ -22,6 +26,9 @@ class DataHelper {
      * ⭐️💣💣🔫🔫
      */
     static func provideEmojiMovies() -> [Movie] {
-        return []
+        return [
+            EmojiMovie(id: "1", name: "🕓⬅️🚗💨"),
+            EmojiMovie(id: "2", name: "🌎🐵🐵🐵")
+        ]
     }
 }

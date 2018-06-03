@@ -11,11 +11,10 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    @IBOutlet weak var movieNameLabel: UILabel!
-    
-    var movieName: String = ""
+    @IBOutlet weak var label: UILabel!
+    var message: String = ""
     
     override func viewWillAppear(_ animated: Bool) {
-        movieNameLabel.text = movieName
+        label.text = message
     }
 }
