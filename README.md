@@ -2,13 +2,34 @@
 
 ## 1. Introduction
 
-1. [Swift Basics](/Playgrounds/)
-2. [HelloWorld](/Projects/)
+*Date:* May 26, 2018
+
+Topic        | Starter           | Project  | Playground | Guide |
+| ------------- |:-------------:|:-----:|:-------------:|:-------------:|
+| Swift Basics     | - | - | [Go](/Playgrounds/P01-SwiftBasics.playground/) | - |
+| HelloWorld      | - | [Go](/Projects/HolaMundo) | - | - |
 
 ## 2. Controllers, Views, Delegates
 
-1. [Dispatcher](/PJ-02-Dispatcher.md)
-2. [Delegation](/Playgrounds/)
-3. [Outlet Catalog](/PJ-03-Outlet-Catalog.md)
-4. [Tables and Collections](/Playgrounds/)
-5. [Movies App Exercise](/Starters/)
+*Date:* Jun 2, 2018
+
+Topic        | Starter           | Project  | Playground | Guide |
+| ------------- |:-------------:|:-----:|:-------------:|:-------------:|
+| Dispatcher     | - | [Go](/Projects/Dispatcher) | - | [Go](/PJ-02-Dispatcher.md) |
+| Delegation      | [Go](/Starters/Delegation/) | [Go](/Projects/Delegation) | [Go](/Playgrounds/P02-Delegation.playground/) | |
+| Outlet Catalog      | - | [Go](/Projects/OutletCatalog) | - | [Go](/PJ-03-Outlet-Catalog.md) |
+| Tables and Collections      | [Go](/Starters/TableView/) | [Go](/Projects/TableView/) | [Go](/Playgrounds/P03-Tables-and-Collections.playground/) | - |
+
+## 3. Navigation, Pods, APIs
+
+*Date:* Jun 9, 2018
+
+Topic        | Starter           | Project  | Playground | Guide |
+| ------------- |:-------------:|:-----:|:-------------:|:-------------:|
+| NavigationController  | - | - | - | - |
+| BottomNavigation  | - | - | - | - |
+| Alerts  | - | - | - | - |
+| Dialogs and Modal Controllers  | - | - | - | - |
+| CocoaPods  | - | - | - | - |
+| Common Libraries  | - | - | - | - |
+| Consuming APIS  | - | - | - | - |
