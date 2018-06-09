@@ -26,10 +26,8 @@ Topic        | Starter           | Project  | Playground | Guide |
 
 Topic        | Starter           | Project  | Playground | Guide |
 | ------------- |:-------------:|:-----:|:-------------:|:-------------:|
-| NavigationController  | - | - | - | - |
-| BottomNavigation  | - | - | - | - |
-| Alerts  | - | - | - | - |
-| Dialogs and Modal Controllers  | - | - | - | - |
-| CocoaPods  | - | - | - | - |
-| Common Libraries  | - | - | - | - |
-| Consuming APIS  | - | - | - | - |
+| Navigation Controller  | [Go](/Starters/NavigationP1) | - | - | - |
+| Bottom Navigation  | [Go](/Starters/NavigationP2) | - | - | - |
+| Alerts & Action Sheets  | [Go](/Starters/Alerts) | - | - | - |
+| CocoaPods  | [Go](/Starters/CocoaPods) | - | - | - |
+| Consuming APIS  | [Go](/Starters/SimpleAPIClient) | - | - | - |
