@@ -1,0 +1,16 @@
+PODS:
+  - Bugle (1.0.0)
+
+DEPENDENCIES:
+  - Bugle
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bugle
+
+SPEC CHECKSUMS:
+  Bugle: eb8a5916c84c17d476001088772d52f6ac6cf211
+
+PODFILE CHECKSUM: 803f89767317d28a709422b98759df78ffc39f73
+
+COCOAPODS: 1.5.3

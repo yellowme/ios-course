@@ -4,10 +4,10 @@
 
 *Date:* May 26, 2018
 
-Topic        | Starter           | Project  | Playground | Guide |
-| ------------- |:-------------:|:-----:|:-------------:|:-------------:|
-| Swift Basics     | - | - | [Go](/Playgrounds/P01-SwiftBasics.playground/) | - |
-| HelloWorld      | - | [Go](/Projects/HolaMundo) | - | - |
+Topic        | Project  | Playground |
+| ------------- |:-----:|:-------------:|
+| Swift Basics  | - | [Go](/Playgrounds/P01-SwiftBasics.playground/) |
+| HelloWorld    | [Go](/Projects/HolaMundo) | - |
 
 ## 2. Controllers, Views, Delegates
 
@@ -24,10 +24,10 @@ Topic        | Starter           | Project  | Playground | Guide |
 
 *Date:* Jun 9, 2018
 
-Topic        | Starter           | Project  | Playground | Guide |
-| ------------- |:-------------:|:-----:|:-------------:|:-------------:|
-| Navigation Controller  | [Go](/Starters/NavigationP1) | - | - | - |
-| Bottom Navigation  | [Go](/Starters/NavigationP2) | - | - | - |
-| Alerts & Action Sheets  | [Go](/Starters/Alerts) | - | - | - |
-| CocoaPods  | [Go](/Starters/CocoaPods) | - | - | - |
-| Consuming APIS  | [Go](/Starters/SimpleAPIClient) | - | - | - |
+Topic        | Starter           | Project | Guide |
+| ------------- |:-------------:|:-----:|:-------------:|
+| Navigation Controller | [Go](/Starters/NavigationP1) | [Go](/Projects/Navigation) | [Go](/PJ-04-Navigation.md) |
+| Bottom Navigation  | [Go](/Starters/NavigationP2) | [Go](/Projects/Navigation) | [Go](/PJ-04-Navigation.md#tabbed-view)  |
+| Alerts & Action Sheets  | [Go](/Starters/Alerts) | [Go](/Projects/Alerts) | [Go](/PJ-05-Alerts.md)  |
+| CocoaPods  | [Go](/Starters/CocoaPods) | [Go](/Projects/CocoaPods) | [Go](/PJ-06-CocoaPods.md)  |
+| Consuming APIS  | [Go](/Starters/SimpleAPIClient) | [Go](/Projects/SimpleAPIClient) | [Go](/PJ-07-SimpleAPIClient.md)  |
