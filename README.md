@@ -31,3 +31,15 @@ Topic        | Starter           | Project | Guide |
 | Alerts & Action Sheets  | [Go](/Starters/Alerts) | [Go](/Projects/Alerts) | [Go](/PJ-05-Alerts.md)  |
 | CocoaPods  | [Go](/Starters/CocoaPods) | [Go](/Projects/CocoaPods) | [Go](/PJ-06-CocoaPods.md)  |
 | Consuming APIS  | [Go](/Starters/SimpleAPIClient) | [Go](/Projects/SimpleAPIClient) | [Go](/PJ-07-SimpleAPIClient.md)  |
+
+## 4. Advanced and Best Practices
+
+*Date:* Jun 16, 2018
+
+**Note:** For this module we are going to use one login form application for all the topics.
+
+Topic        | Starter           | Project | Guide |
+| ------------- |:-------------:|:-----:|:-------------:|
+| MVP & Good Practices | [Go](/Starters/LoginForm) | [Go](/Projects/LoginForm) | [Go](/PJ-08-LoginForm.md#good-practices) |
+| Advanced Protocols | [Go](/Starters/LoginFormP2) | [Go](/Projects/LoginFormP2) | [Go](/PJ-08-LoginForm.md#advanced-protocols) |
+| Animations | [Go](/Starters/LoginFormP3) | [Go](/Projects/LoginFormP3) | [Go](/PJ-08-LoginForm.md#animations)
