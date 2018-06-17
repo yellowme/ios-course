@@ -44,7 +44,7 @@ Finally you should have something like the following screen:
 
 Now we need to adopt the MVP pattern for our login feature:
 
-### Define a *contract* for the feature.
+### Define a *contract* for the feature
 
 You could use a similar approach like the one from the [YellowPod](https://github.com/yellowme/base-ios/tree/feature/base-features-structure/YellowPod/YellowPod/Presentation#login)
 
@@ -464,4 +464,42 @@ extension LoginViewController {
         }
     }
 }
+```
+
+### BONUS: Extend animations
+
+Another way to animate visual elements is to use the class `CGAffineTransform` which allow us to easily scale, rotate and translate views.
+
+Inside the *// MARK: Button Animations* create a new method:
+
+```swift
+    ...
+
+    private func continueEnterAnimations() {
+        let scale = CGAffineTransform(scaleX: 1.2, y: 1.2)
+        let translate = CGAffineTransform(translationX: 0, y: -10)
+
+        UIView.animate(withDuration: 0.6) {
+            let transform = scale.concatenating(translate)
+            self.headingLabel.transform = transform
+        }
+    }
+
+    ...
+```
+
+Finally modify your `executeEnterLoginButton` method:
+
+```swift
+    ...
+
+    private func executeEnterLoginButton() {
+        UIView.animate(withDuration: 0.4, animations: {
+            self.loginButton.center.y -= self.loginButton.frame.height
+        }) { _ in
+            self.continueEnterAnimations()
+        }
+    }
+
+    ...
 ```

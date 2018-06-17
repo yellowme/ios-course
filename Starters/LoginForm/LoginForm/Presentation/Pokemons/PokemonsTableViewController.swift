@@ -46,12 +46,19 @@ class PokemonsTableViewController: DataTableViewController<Pokemon> {
     //MARK: Helpers
     
     func setProgres(active: Bool) {
+        guard let parentView = parent?.view else { return }
+        
         if active {
-            self.showIndicator(on: view, options: BaseViewIndicatorOptions(
-                indicatorColor: .blue, alpha: 0.6, overlayColor: .lightGray
-            ))
+            self.parent?.showIndicator(
+                on: parentView,
+                options: BaseViewIndicatorOptions(
+                    indicatorColor: .blue,
+                    alpha: 0.6,
+                    overlayColor: .lightGray
+                )
+            )
         } else {
-            self.hideActivityIndicator(on: view)
+            self.parent?.hideActivityIndicator(on: parentView)
         }
     }
     

@@ -82,8 +82,20 @@ extension LoginViewController {
 // MARK: Button Animations
 extension LoginViewController {
     private func executeEnterLoginButton() {
-        UIView.animate(withDuration: 0.4) {
+        UIView.animate(withDuration: 0.4, animations: {
             self.loginButton.center.y -= self.loginButton.frame.height
+        }) { _ in
+            self.continueEnterAnimations()
+        }
+    }
+    
+    private func continueEnterAnimations() {
+        let scale = CGAffineTransform(scaleX: 1.2, y: 1.2)
+        let translate = CGAffineTransform(translationX: 0, y: -10)
+        
+        UIView.animate(withDuration: 0.6) {
+            let transform = scale.concatenating(translate)
+            self.headingLabel.transform = transform
         }
     }
     
