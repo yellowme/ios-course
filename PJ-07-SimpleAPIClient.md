@@ -13,10 +13,10 @@ The **base URL** of our API is: `https://ios-course-poke-api.herokuapp.com`
 ### Endpoints
 
 * `/pokemons` - To list all pokemons
-* `/pokemons?type=FIRE` - Search by type
+* `/pokemons?types=FIRE` - Search by type
 * `/pokemons?name=Charmander` - Search by exact name
 * `/pokemons?name_like=charm` - Search by name using LIKE modifier
-* `/pokemons?type=FIRE&name_like=charm` - Search by type and name using LIKE modifier
+* `/pokemons?types=FIRE&name_like=charm` - Search by type and name using LIKE modifier
 * `/pokemons/{id}` - To get a specific pokemon details
 
 ### Models
