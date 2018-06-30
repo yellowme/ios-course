@@ -7,71 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A020A5BC20E7CE0E00827B5A /* CellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A59820E7CE0D00827B5A /* CellDecorator.swift */; };
+		A020A5BD20E7CE0E00827B5A /* AppCellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A59920E7CE0D00827B5A /* AppCellDecorator.swift */; };
+		A020A5BE20E7CE0E00827B5A /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A59B20E7CE0D00827B5A /* UIViewController+Navigation.swift */; };
+		A020A5BF20E7CE0E00827B5A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A59D20E7CE0D00827B5A /* BaseViewController.swift */; };
+		A020A5C020E7CE0E00827B5A /* BaseViewControllerIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A59E20E7CE0D00827B5A /* BaseViewControllerIndicator.swift */; };
+		A020A5C120E7CE0E00827B5A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A59F20E7CE0D00827B5A /* BaseView.swift */; };
+		A020A5C220E7CE0E00827B5A /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5A120E7CE0D00827B5A /* DataTableViewController.swift */; };
+		A020A5C320E7CE0E00827B5A /* AppDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5A320E7CE0D00827B5A /* AppDataSource.swift */; };
+		A020A5C420E7CE0E00827B5A /* AppParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5A420E7CE0D00827B5A /* AppParser.swift */; };
+		A020A5C520E7CE0E00827B5A /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5A520E7CE0D00827B5A /* DataSource.swift */; };
+		A020A5C620E7CE0E00827B5A /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5A620E7CE0D00827B5A /* Parser.swift */; };
+		A020A5C720E7CE0E00827B5A /* SimplePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5A820E7CE0D00827B5A /* SimplePokemon.swift */; };
+		A020A5C820E7CE0E00827B5A /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5A920E7CE0D00827B5A /* Pokemon.swift */; };
+		A020A5C920E7CE0E00827B5A /* SimplePokemonCellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5AB20E7CE0D00827B5A /* SimplePokemonCellDecorator.swift */; };
+		A020A5CA20E7CE0E00827B5A /* PokemonsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5AE20E7CE0D00827B5A /* PokemonsParser.swift */; };
+		A020A5CB20E7CE0E00827B5A /* PokemonsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5AF20E7CE0D00827B5A /* PokemonsService.swift */; };
+		A020A5CC20E7CE0E00827B5A /* DispatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5B220E7CE0E00827B5A /* DispatchViewController.swift */; };
+		A020A5CD20E7CE0E00827B5A /* Dispatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A020A5B320E7CE0E00827B5A /* Dispatch.storyboard */; };
+		A020A5CE20E7CE0E00827B5A /* PokemonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5B520E7CE0E00827B5A /* PokemonsTableViewController.swift */; };
+		A020A5CF20E7CE0E00827B5A /* Pokemons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A020A5B620E7CE0E00827B5A /* Pokemons.storyboard */; };
+		A020A5D020E7CE0E00827B5A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A020A5B820E7CE0E00827B5A /* Login.storyboard */; };
+		A020A5D120E7CE0E00827B5A /* LoginContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5B920E7CE0E00827B5A /* LoginContract.swift */; };
+		A020A5D220E7CE0E00827B5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5BA20E7CE0E00827B5A /* LoginViewController.swift */; };
+		A020A5D320E7CE0E00827B5A /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5BB20E7CE0E00827B5A /* LoginPresenter.swift */; };
+		A020A5D620E7D2BA00827B5A /* LocelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5D520E7D2BA00827B5A /* LocelKeys.swift */; };
+		A020A5D820E7D3CE00827B5A /* DispatchManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5D720E7D3CE00827B5A /* DispatchManagerProtocol.swift */; };
+		A020A5DA20E7D4D700827B5A /* DispatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5D920E7D4D700827B5A /* DispatchManager.swift */; };
+		A020A5DE20E7E00E00827B5A /* SessionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5DD20E7E00E00827B5A /* SessionManagerProtocol.swift */; };
+		A020A5E020E7E01600827B5A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5DF20E7E01600827B5A /* SessionManager.swift */; };
+		A020A5E220E7E03100827B5A /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5E120E7E03100827B5A /* Session.swift */; };
 		A05F0CA720E796FB00F9CD2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CA620E796FB00F9CD2B /* AppDelegate.swift */; };
 		A05F0CAE20E796FD00F9CD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05F0CAD20E796FD00F9CD2B /* Assets.xcassets */; };
 		A05F0CB120E796FD00F9CD2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05F0CAF20E796FD00F9CD2B /* LaunchScreen.storyboard */; };
-		A05F0CDE20E7975D00F9CD2B /* SimplePokemonCellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CB920E7975C00F9CD2B /* SimplePokemonCellDecorator.swift */; };
-		A05F0CDF20E7975D00F9CD2B /* PokemonsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CBC20E7975C00F9CD2B /* PokemonsParser.swift */; };
-		A05F0CE020E7975D00F9CD2B /* PokemonsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CBD20E7975C00F9CD2B /* PokemonsService.swift */; };
-		A05F0CE120E7975D00F9CD2B /* SimplePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CBF20E7975C00F9CD2B /* SimplePokemon.swift */; };
-		A05F0CE220E7975D00F9CD2B /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CC020E7975C00F9CD2B /* Pokemon.swift */; };
-		A05F0CE320E7975D00F9CD2B /* CellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CC320E7975D00F9CD2B /* CellDecorator.swift */; };
-		A05F0CE420E7975D00F9CD2B /* AppCellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CC420E7975D00F9CD2B /* AppCellDecorator.swift */; };
-		A05F0CE520E7975D00F9CD2B /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CC620E7975D00F9CD2B /* UIViewController+Navigation.swift */; };
-		A05F0CE620E7975D00F9CD2B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CC820E7975D00F9CD2B /* BaseViewController.swift */; };
-		A05F0CE720E7975D00F9CD2B /* BaseViewControllerIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CC920E7975D00F9CD2B /* BaseViewControllerIndicator.swift */; };
-		A05F0CE820E7975D00F9CD2B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CCA20E7975D00F9CD2B /* BaseView.swift */; };
-		A05F0CE920E7975D00F9CD2B /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CCC20E7975D00F9CD2B /* DataTableViewController.swift */; };
-		A05F0CEA20E7975D00F9CD2B /* AppDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CCE20E7975D00F9CD2B /* AppDataSource.swift */; };
-		A05F0CEB20E7975D00F9CD2B /* AppParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CCF20E7975D00F9CD2B /* AppParser.swift */; };
-		A05F0CEC20E7975D00F9CD2B /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CD020E7975D00F9CD2B /* DataSource.swift */; };
-		A05F0CED20E7975D00F9CD2B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CD120E7975D00F9CD2B /* Parser.swift */; };
-		A05F0CEE20E7975D00F9CD2B /* DispatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CD420E7975D00F9CD2B /* DispatchViewController.swift */; };
-		A05F0CEF20E7975D00F9CD2B /* Dispatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05F0CD520E7975D00F9CD2B /* Dispatch.storyboard */; };
-		A05F0CF020E7975D00F9CD2B /* PokemonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CD720E7975D00F9CD2B /* PokemonsTableViewController.swift */; };
-		A05F0CF120E7975D00F9CD2B /* Pokemons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05F0CD820E7975D00F9CD2B /* Pokemons.storyboard */; };
-		A05F0CF220E7975D00F9CD2B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05F0CDA20E7975D00F9CD2B /* Login.storyboard */; };
-		A05F0CF320E7975D00F9CD2B /* LoginContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CDB20E7975D00F9CD2B /* LoginContract.swift */; };
-		A05F0CF420E7975D00F9CD2B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CDC20E7975D00F9CD2B /* LoginViewController.swift */; };
-		A05F0CF520E7975D00F9CD2B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CDD20E7975D00F9CD2B /* LoginPresenter.swift */; };
-		A05F0CF820E79E7100F9CD2B /* LocalKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CF720E79E7100F9CD2B /* LocalKeys.swift */; };
-		A05F0CFA20E79F9B00F9CD2B /* DispatchManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CF920E79F9B00F9CD2B /* DispatchManagerProtocol.swift */; };
-		A05F0CFC20E7A02900F9CD2B /* DispatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F0CFB20E7A02900F9CD2B /* DispatchManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A020A59820E7CE0D00827B5A /* CellDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDecorator.swift; sourceTree = "<group>"; };
+		A020A59920E7CE0D00827B5A /* AppCellDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCellDecorator.swift; sourceTree = "<group>"; };
+		A020A59B20E7CE0D00827B5A /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		A020A59D20E7CE0D00827B5A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A020A59E20E7CE0D00827B5A /* BaseViewControllerIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewControllerIndicator.swift; sourceTree = "<group>"; };
+		A020A59F20E7CE0D00827B5A /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		A020A5A120E7CE0D00827B5A /* DataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
+		A020A5A320E7CE0D00827B5A /* AppDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDataSource.swift; sourceTree = "<group>"; };
+		A020A5A420E7CE0D00827B5A /* AppParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppParser.swift; sourceTree = "<group>"; };
+		A020A5A520E7CE0D00827B5A /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		A020A5A620E7CE0D00827B5A /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		A020A5A820E7CE0D00827B5A /* SimplePokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePokemon.swift; sourceTree = "<group>"; };
+		A020A5A920E7CE0D00827B5A /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		A020A5AB20E7CE0D00827B5A /* SimplePokemonCellDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePokemonCellDecorator.swift; sourceTree = "<group>"; };
+		A020A5AE20E7CE0D00827B5A /* PokemonsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonsParser.swift; sourceTree = "<group>"; };
+		A020A5AF20E7CE0D00827B5A /* PokemonsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonsService.swift; sourceTree = "<group>"; };
+		A020A5B220E7CE0E00827B5A /* DispatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchViewController.swift; sourceTree = "<group>"; };
+		A020A5B320E7CE0E00827B5A /* Dispatch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dispatch.storyboard; sourceTree = "<group>"; };
+		A020A5B520E7CE0E00827B5A /* PokemonsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonsTableViewController.swift; sourceTree = "<group>"; };
+		A020A5B620E7CE0E00827B5A /* Pokemons.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pokemons.storyboard; sourceTree = "<group>"; };
+		A020A5B820E7CE0E00827B5A /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A020A5B920E7CE0E00827B5A /* LoginContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginContract.swift; sourceTree = "<group>"; };
+		A020A5BA20E7CE0E00827B5A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A020A5BB20E7CE0E00827B5A /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		A020A5D520E7D2BA00827B5A /* LocelKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocelKeys.swift; sourceTree = "<group>"; };
+		A020A5D720E7D3CE00827B5A /* DispatchManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchManagerProtocol.swift; sourceTree = "<group>"; };
+		A020A5D920E7D4D700827B5A /* DispatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchManager.swift; sourceTree = "<group>"; };
+		A020A5DD20E7E00E00827B5A /* SessionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManagerProtocol.swift; sourceTree = "<group>"; };
+		A020A5DF20E7E01600827B5A /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		A020A5E120E7E03100827B5A /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		A05F0CA320E796FB00F9CD2B /* UserDefaults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserDefaults.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05F0CA620E796FB00F9CD2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A05F0CAD20E796FD00F9CD2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A05F0CB020E796FD00F9CD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A05F0CB220E796FD00F9CD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A05F0CB920E7975C00F9CD2B /* SimplePokemonCellDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePokemonCellDecorator.swift; sourceTree = "<group>"; };
-		A05F0CBC20E7975C00F9CD2B /* PokemonsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonsParser.swift; sourceTree = "<group>"; };
-		A05F0CBD20E7975C00F9CD2B /* PokemonsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonsService.swift; sourceTree = "<group>"; };
-		A05F0CBF20E7975C00F9CD2B /* SimplePokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePokemon.swift; sourceTree = "<group>"; };
-		A05F0CC020E7975C00F9CD2B /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
-		A05F0CC320E7975D00F9CD2B /* CellDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDecorator.swift; sourceTree = "<group>"; };
-		A05F0CC420E7975D00F9CD2B /* AppCellDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCellDecorator.swift; sourceTree = "<group>"; };
-		A05F0CC620E7975D00F9CD2B /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
-		A05F0CC820E7975D00F9CD2B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		A05F0CC920E7975D00F9CD2B /* BaseViewControllerIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewControllerIndicator.swift; sourceTree = "<group>"; };
-		A05F0CCA20E7975D00F9CD2B /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
-		A05F0CCC20E7975D00F9CD2B /* DataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
-		A05F0CCE20E7975D00F9CD2B /* AppDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDataSource.swift; sourceTree = "<group>"; };
-		A05F0CCF20E7975D00F9CD2B /* AppParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppParser.swift; sourceTree = "<group>"; };
-		A05F0CD020E7975D00F9CD2B /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
-		A05F0CD120E7975D00F9CD2B /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		A05F0CD420E7975D00F9CD2B /* DispatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchViewController.swift; sourceTree = "<group>"; };
-		A05F0CD520E7975D00F9CD2B /* Dispatch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dispatch.storyboard; sourceTree = "<group>"; };
-		A05F0CD720E7975D00F9CD2B /* PokemonsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonsTableViewController.swift; sourceTree = "<group>"; };
-		A05F0CD820E7975D00F9CD2B /* Pokemons.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pokemons.storyboard; sourceTree = "<group>"; };
-		A05F0CDA20E7975D00F9CD2B /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		A05F0CDB20E7975D00F9CD2B /* LoginContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginContract.swift; sourceTree = "<group>"; };
-		A05F0CDC20E7975D00F9CD2B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		A05F0CDD20E7975D00F9CD2B /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
-		A05F0CF720E79E7100F9CD2B /* LocalKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalKeys.swift; sourceTree = "<group>"; };
-		A05F0CF920E79F9B00F9CD2B /* DispatchManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchManagerProtocol.swift; sourceTree = "<group>"; };
-		A05F0CFB20E7A02900F9CD2B /* DispatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,167 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A020A59620E7CE0D00827B5A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A020A59720E7CE0D00827B5A /* Decorators */,
+				A020A59A20E7CE0D00827B5A /* Navigation */,
+				A020A59C20E7CE0D00827B5A /* ViewPresenter */,
+				A020A5A020E7CE0D00827B5A /* Controllers */,
+				A020A5A220E7CE0D00827B5A /* Data */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A020A59720E7CE0D00827B5A /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				A020A59820E7CE0D00827B5A /* CellDecorator.swift */,
+				A020A59920E7CE0D00827B5A /* AppCellDecorator.swift */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		A020A59A20E7CE0D00827B5A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A020A59B20E7CE0D00827B5A /* UIViewController+Navigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A020A59C20E7CE0D00827B5A /* ViewPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				A020A59D20E7CE0D00827B5A /* BaseViewController.swift */,
+				A020A59E20E7CE0D00827B5A /* BaseViewControllerIndicator.swift */,
+				A020A59F20E7CE0D00827B5A /* BaseView.swift */,
+			);
+			path = ViewPresenter;
+			sourceTree = "<group>";
+		};
+		A020A5A020E7CE0D00827B5A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5A120E7CE0D00827B5A /* DataTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A020A5A220E7CE0D00827B5A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5A320E7CE0D00827B5A /* AppDataSource.swift */,
+				A020A5A420E7CE0D00827B5A /* AppParser.swift */,
+				A020A5A520E7CE0D00827B5A /* DataSource.swift */,
+				A020A5A620E7CE0D00827B5A /* Parser.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A020A5A720E7CE0D00827B5A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5A820E7CE0D00827B5A /* SimplePokemon.swift */,
+				A020A5A920E7CE0D00827B5A /* Pokemon.swift */,
+				A020A5E120E7E03100827B5A /* Session.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A020A5AA20E7CE0D00827B5A /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5AB20E7CE0D00827B5A /* SimplePokemonCellDecorator.swift */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		A020A5AC20E7CE0D00827B5A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5D420E7D23300827B5A /* Local */,
+				A020A5AD20E7CE0D00827B5A /* Remote */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A020A5AD20E7CE0D00827B5A /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5AE20E7CE0D00827B5A /* PokemonsParser.swift */,
+				A020A5AF20E7CE0D00827B5A /* PokemonsService.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		A020A5B020E7CE0D00827B5A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5B120E7CE0D00827B5A /* Dispatch */,
+				A020A5B420E7CE0E00827B5A /* Pokemons */,
+				A020A5B720E7CE0E00827B5A /* Login */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A020A5B120E7CE0D00827B5A /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5B220E7CE0E00827B5A /* DispatchViewController.swift */,
+				A020A5B320E7CE0E00827B5A /* Dispatch.storyboard */,
+			);
+			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		A020A5B420E7CE0E00827B5A /* Pokemons */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5B520E7CE0E00827B5A /* PokemonsTableViewController.swift */,
+				A020A5B620E7CE0E00827B5A /* Pokemons.storyboard */,
+			);
+			path = Pokemons;
+			sourceTree = "<group>";
+		};
+		A020A5B720E7CE0E00827B5A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5B820E7CE0E00827B5A /* Login.storyboard */,
+				A020A5B920E7CE0E00827B5A /* LoginContract.swift */,
+				A020A5BA20E7CE0E00827B5A /* LoginViewController.swift */,
+				A020A5BB20E7CE0E00827B5A /* LoginPresenter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A020A5D420E7D23300827B5A /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5DC20E7D98400827B5A /* Managers */,
+				A020A5DB20E7D97600827B5A /* Protocols */,
+				A020A5D520E7D2BA00827B5A /* LocelKeys.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		A020A5DB20E7D97600827B5A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5D720E7D3CE00827B5A /* DispatchManagerProtocol.swift */,
+				A020A5DD20E7E00E00827B5A /* SessionManagerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A020A5DC20E7D98400827B5A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A020A5D920E7D4D700827B5A /* DispatchManager.swift */,
+				A020A5DF20E7E01600827B5A /* SessionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		A05F0C9A20E796FB00F9CD2B = {
 			isa = PBXGroup;
 			children = (
@@ -104,180 +271,17 @@
 		A05F0CA520E796FB00F9CD2B /* UserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				A05F0CC120E7975D00F9CD2B /* Common */,
-				A05F0CBA20E7975C00F9CD2B /* Data */,
-				A05F0CB820E7975C00F9CD2B /* Decorators */,
-				A05F0CBE20E7975C00F9CD2B /* Domain */,
-				A05F0CD220E7975D00F9CD2B /* Presentation */,
+				A020A59620E7CE0D00827B5A /* Common */,
+				A020A5AC20E7CE0D00827B5A /* Data */,
+				A020A5AA20E7CE0D00827B5A /* Decorators */,
+				A020A5A720E7CE0D00827B5A /* Domain */,
+				A020A5B020E7CE0D00827B5A /* Presentation */,
 				A05F0CA620E796FB00F9CD2B /* AppDelegate.swift */,
 				A05F0CAD20E796FD00F9CD2B /* Assets.xcassets */,
 				A05F0CAF20E796FD00F9CD2B /* LaunchScreen.storyboard */,
 				A05F0CB220E796FD00F9CD2B /* Info.plist */,
 			);
 			path = UserDefaults;
-			sourceTree = "<group>";
-		};
-		A05F0CB820E7975C00F9CD2B /* Decorators */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CB920E7975C00F9CD2B /* SimplePokemonCellDecorator.swift */,
-			);
-			name = Decorators;
-			path = ../../LoginForm/LoginForm/Decorators;
-			sourceTree = "<group>";
-		};
-		A05F0CBA20E7975C00F9CD2B /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CF620E79DB300F9CD2B /* Local */,
-				A05F0CBB20E7975C00F9CD2B /* Remote */,
-			);
-			name = Data;
-			path = ../../LoginForm/LoginForm/Data;
-			sourceTree = "<group>";
-		};
-		A05F0CBB20E7975C00F9CD2B /* Remote */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CBC20E7975C00F9CD2B /* PokemonsParser.swift */,
-				A05F0CBD20E7975C00F9CD2B /* PokemonsService.swift */,
-			);
-			path = Remote;
-			sourceTree = "<group>";
-		};
-		A05F0CBE20E7975C00F9CD2B /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CBF20E7975C00F9CD2B /* SimplePokemon.swift */,
-				A05F0CC020E7975C00F9CD2B /* Pokemon.swift */,
-			);
-			name = Domain;
-			path = ../../LoginForm/LoginForm/Domain;
-			sourceTree = "<group>";
-		};
-		A05F0CC120E7975D00F9CD2B /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CC220E7975D00F9CD2B /* Decorators */,
-				A05F0CC520E7975D00F9CD2B /* Navigation */,
-				A05F0CC720E7975D00F9CD2B /* ViewPresenter */,
-				A05F0CCB20E7975D00F9CD2B /* Controllers */,
-				A05F0CCD20E7975D00F9CD2B /* Data */,
-			);
-			name = Common;
-			path = ../../LoginForm/LoginForm/Common;
-			sourceTree = "<group>";
-		};
-		A05F0CC220E7975D00F9CD2B /* Decorators */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CC320E7975D00F9CD2B /* CellDecorator.swift */,
-				A05F0CC420E7975D00F9CD2B /* AppCellDecorator.swift */,
-			);
-			path = Decorators;
-			sourceTree = "<group>";
-		};
-		A05F0CC520E7975D00F9CD2B /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CC620E7975D00F9CD2B /* UIViewController+Navigation.swift */,
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
-		A05F0CC720E7975D00F9CD2B /* ViewPresenter */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CC820E7975D00F9CD2B /* BaseViewController.swift */,
-				A05F0CC920E7975D00F9CD2B /* BaseViewControllerIndicator.swift */,
-				A05F0CCA20E7975D00F9CD2B /* BaseView.swift */,
-			);
-			path = ViewPresenter;
-			sourceTree = "<group>";
-		};
-		A05F0CCB20E7975D00F9CD2B /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CCC20E7975D00F9CD2B /* DataTableViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		A05F0CCD20E7975D00F9CD2B /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CCE20E7975D00F9CD2B /* AppDataSource.swift */,
-				A05F0CCF20E7975D00F9CD2B /* AppParser.swift */,
-				A05F0CD020E7975D00F9CD2B /* DataSource.swift */,
-				A05F0CD120E7975D00F9CD2B /* Parser.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		A05F0CD220E7975D00F9CD2B /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CD320E7975D00F9CD2B /* Dispatch */,
-				A05F0CD620E7975D00F9CD2B /* Pokemons */,
-				A05F0CD920E7975D00F9CD2B /* Login */,
-			);
-			name = Presentation;
-			path = ../../LoginForm/LoginForm/Presentation;
-			sourceTree = "<group>";
-		};
-		A05F0CD320E7975D00F9CD2B /* Dispatch */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CD420E7975D00F9CD2B /* DispatchViewController.swift */,
-				A05F0CD520E7975D00F9CD2B /* Dispatch.storyboard */,
-			);
-			path = Dispatch;
-			sourceTree = "<group>";
-		};
-		A05F0CD620E7975D00F9CD2B /* Pokemons */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CD720E7975D00F9CD2B /* PokemonsTableViewController.swift */,
-				A05F0CD820E7975D00F9CD2B /* Pokemons.storyboard */,
-			);
-			path = Pokemons;
-			sourceTree = "<group>";
-		};
-		A05F0CD920E7975D00F9CD2B /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CDA20E7975D00F9CD2B /* Login.storyboard */,
-				A05F0CDB20E7975D00F9CD2B /* LoginContract.swift */,
-				A05F0CDC20E7975D00F9CD2B /* LoginViewController.swift */,
-				A05F0CDD20E7975D00F9CD2B /* LoginPresenter.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		A05F0CF620E79DB300F9CD2B /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CFE20E7A2A400F9CD2B /* Protocols */,
-				A05F0CFD20E7A29E00F9CD2B /* Managers */,
-				A05F0CF720E79E7100F9CD2B /* LocalKeys.swift */,
-			);
-			path = Local;
-			sourceTree = "<group>";
-		};
-		A05F0CFD20E7A29E00F9CD2B /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CFB20E7A02900F9CD2B /* DispatchManager.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		A05F0CFE20E7A2A400F9CD2B /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				A05F0CF920E79F9B00F9CD2B /* DispatchManagerProtocol.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,11 +342,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A05F0CF120E7975D00F9CD2B /* Pokemons.storyboard in Resources */,
 				A05F0CB120E796FD00F9CD2B /* LaunchScreen.storyboard in Resources */,
-				A05F0CF220E7975D00F9CD2B /* Login.storyboard in Resources */,
+				A020A5CD20E7CE0E00827B5A /* Dispatch.storyboard in Resources */,
+				A020A5CF20E7CE0E00827B5A /* Pokemons.storyboard in Resources */,
+				A020A5D020E7CE0E00827B5A /* Login.storyboard in Resources */,
 				A05F0CAE20E796FD00F9CD2B /* Assets.xcassets in Resources */,
-				A05F0CEF20E7975D00F9CD2B /* Dispatch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,31 +357,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A05F0CE220E7975D00F9CD2B /* Pokemon.swift in Sources */,
-				A05F0CEC20E7975D00F9CD2B /* DataSource.swift in Sources */,
-				A05F0CF520E7975D00F9CD2B /* LoginPresenter.swift in Sources */,
-				A05F0CE820E7975D00F9CD2B /* BaseView.swift in Sources */,
-				A05F0CEE20E7975D00F9CD2B /* DispatchViewController.swift in Sources */,
-				A05F0CE320E7975D00F9CD2B /* CellDecorator.swift in Sources */,
-				A05F0CE620E7975D00F9CD2B /* BaseViewController.swift in Sources */,
-				A05F0CE020E7975D00F9CD2B /* PokemonsService.swift in Sources */,
-				A05F0CE920E7975D00F9CD2B /* DataTableViewController.swift in Sources */,
-				A05F0CE120E7975D00F9CD2B /* SimplePokemon.swift in Sources */,
-				A05F0CF020E7975D00F9CD2B /* PokemonsTableViewController.swift in Sources */,
-				A05F0CF420E7975D00F9CD2B /* LoginViewController.swift in Sources */,
-				A05F0CE720E7975D00F9CD2B /* BaseViewControllerIndicator.swift in Sources */,
-				A05F0CEB20E7975D00F9CD2B /* AppParser.swift in Sources */,
-				A05F0CDF20E7975D00F9CD2B /* PokemonsParser.swift in Sources */,
-				A05F0CF320E7975D00F9CD2B /* LoginContract.swift in Sources */,
-				A05F0CE520E7975D00F9CD2B /* UIViewController+Navigation.swift in Sources */,
-				A05F0CFC20E7A02900F9CD2B /* DispatchManager.swift in Sources */,
-				A05F0CEA20E7975D00F9CD2B /* AppDataSource.swift in Sources */,
-				A05F0CED20E7975D00F9CD2B /* Parser.swift in Sources */,
-				A05F0CDE20E7975D00F9CD2B /* SimplePokemonCellDecorator.swift in Sources */,
-				A05F0CF820E79E7100F9CD2B /* LocalKeys.swift in Sources */,
-				A05F0CFA20E79F9B00F9CD2B /* DispatchManagerProtocol.swift in Sources */,
-				A05F0CE420E7975D00F9CD2B /* AppCellDecorator.swift in Sources */,
+				A020A5E220E7E03100827B5A /* Session.swift in Sources */,
+				A020A5D220E7CE0E00827B5A /* LoginViewController.swift in Sources */,
+				A020A5CC20E7CE0E00827B5A /* DispatchViewController.swift in Sources */,
+				A020A5BF20E7CE0E00827B5A /* BaseViewController.swift in Sources */,
+				A020A5D620E7D2BA00827B5A /* LocelKeys.swift in Sources */,
+				A020A5C920E7CE0E00827B5A /* SimplePokemonCellDecorator.swift in Sources */,
+				A020A5D320E7CE0E00827B5A /* LoginPresenter.swift in Sources */,
+				A020A5C220E7CE0E00827B5A /* DataTableViewController.swift in Sources */,
+				A020A5BE20E7CE0E00827B5A /* UIViewController+Navigation.swift in Sources */,
 				A05F0CA720E796FB00F9CD2B /* AppDelegate.swift in Sources */,
+				A020A5BD20E7CE0E00827B5A /* AppCellDecorator.swift in Sources */,
+				A020A5DE20E7E00E00827B5A /* SessionManagerProtocol.swift in Sources */,
+				A020A5E020E7E01600827B5A /* SessionManager.swift in Sources */,
+				A020A5C120E7CE0E00827B5A /* BaseView.swift in Sources */,
+				A020A5C420E7CE0E00827B5A /* AppParser.swift in Sources */,
+				A020A5D120E7CE0E00827B5A /* LoginContract.swift in Sources */,
+				A020A5CA20E7CE0E00827B5A /* PokemonsParser.swift in Sources */,
+				A020A5CB20E7CE0E00827B5A /* PokemonsService.swift in Sources */,
+				A020A5C820E7CE0E00827B5A /* Pokemon.swift in Sources */,
+				A020A5C720E7CE0E00827B5A /* SimplePokemon.swift in Sources */,
+				A020A5DA20E7D4D700827B5A /* DispatchManager.swift in Sources */,
+				A020A5CE20E7CE0E00827B5A /* PokemonsTableViewController.swift in Sources */,
+				A020A5BC20E7CE0E00827B5A /* CellDecorator.swift in Sources */,
+				A020A5C620E7CE0E00827B5A /* Parser.swift in Sources */,
+				A020A5C020E7CE0E00827B5A /* BaseViewControllerIndicator.swift in Sources */,
+				A020A5D820E7D3CE00827B5A /* DispatchManagerProtocol.swift in Sources */,
+				A020A5C520E7CE0E00827B5A /* DataSource.swift in Sources */,
+				A020A5C320E7CE0E00827B5A /* AppDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
