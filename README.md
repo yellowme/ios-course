@@ -51,3 +51,11 @@ Topic        | Starter           | Project | Guide |
 Topic        | Starter           | Project | Guide |
 | ------------- |:-------------:|:-----:|:-------------:|
 | UserDefaults | [Go](/Starters/UserDefaults) | [Go](/Projects/UserDefaults) | [Go](/PJ-09-UserDefaults.md) |
+
+## 6. Course App: Main View
+
+*Date:* Jul 11, 2018
+
+Topic        | Starter           | Project | Guide |
+| ------------- |:-------------:|:-----:|:-------------:|
+| Custom cells, search and filters | [Go](/Starters/Pokedex) | [Go](/Projects/Pokedex) | [Go](/PJ-10-Pokedex-P1.md) |

@@ -1,0 +1,6 @@
+framework module Bugle {
+  umbrella header "Bugle-umbrella.h"
+
+  export *
+  module * { export * }
+}
