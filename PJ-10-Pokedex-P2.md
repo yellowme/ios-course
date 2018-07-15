@@ -1,4 +1,4 @@
-# User Defaults
+# App Course: Pokédex - Part 2
 
 Code related: [Projects/PokedexP2](/Projects/PokedexP2)
 

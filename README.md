@@ -54,8 +54,9 @@ Topic        | Starter           | Project | Guide |
 
 ## 6. Course App: Main View
 
-*Date:* Jul 11, 2018
+*Date:* Jul 14, 2018
 
 Topic        | Starter           | Project | Guide |
 | ------------- |:-------------:|:-----:|:-------------:|
-| Custom cells, search and filters | [Go](/Starters/Pokedex) | [Go](/Projects/Pokedex) | [Go](/PJ-10-Pokedex-P1.md) |
+| Custom cells | [Go](/Starters/Pokedex) | [Go](/Projects/Pokedex) | [Go](/PJ-10-Pokedex-P1.md) |
+| Search and filters | [Go](/Starters/PokedexP2) | [Go](/Projects/PokedexP2) | [Go](/PJ-10-Pokedex-P2.md) |
