@@ -60,3 +60,12 @@ Topic        | Starter           | Project | Guide |
 | ------------- |:-------------:|:-----:|:-------------:|
 | Custom cells | [Go](/Starters/Pokedex) | [Go](/Projects/Pokedex) | [Go](/PJ-10-Pokedex-P1.md) |
 | Search and filters | [Go](/Starters/PokedexP2) | [Go](/Projects/PokedexP2) | [Go](/PJ-10-Pokedex-P2.md) |
+
+## 7. Course App: Types View and Databases
+
+*Date:* Jul 14, 2018
+
+Topic        | Starter           | Project | Guide |
+| ------------- |:-------------:|:-----:|:-------------:|
+| Types View | [Go](/Starters/PokedexP3) | [Go](/Projects/PokedexP3) | [Go](/PJ-10-Pokedex-P3.md) |
+| Databases | [Go](/Starters/PokedexP4) | [Go](/Projects/PokedexP4) | [Go](/PJ-10-Pokedex-P4.md) |
