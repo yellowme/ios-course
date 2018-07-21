@@ -16,7 +16,7 @@ You must use the [Pokedex - Part 3 Starter](/Starters/PokedexP3) for this module
 
 ## Create Types View
 
-### Add assets
+### Add assets
 
 Inside `Assets` folder be sure that the filter asset is added.
 
