@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65C338562103A46B0078D239 /* TypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C338552103A46B0078D239 /* TypeTableViewCell.swift */; };
 		A020A5F020E7EEA900827B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A5EF20E7EEA900827B5A /* AppDelegate.swift */; };
 		A020A5F720E7EEAA00827B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A020A5F620E7EEAA00827B5A /* Assets.xcassets */; };
 		A020A5FA20E7EEAA00827B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A020A5F820E7EEAA00827B5A /* LaunchScreen.storyboard */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		472466471107AFC57AA13DBE /* Pods_Pokedex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C338552103A46B0078D239 /* TypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTableViewCell.swift; sourceTree = "<group>"; };
 		A020A5EC20E7EEA900827B5A /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A020A5EF20E7EEA900827B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A020A5F620E7EEAA00827B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +116,22 @@
 				472466471107AFC57AA13DBE /* Pods_Pokedex.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65C338532103A43D0078D239 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				65C338542103A4490078D239 /* Cell */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		65C338542103A4490078D239 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				65C338552103A46B0078D239 /* TypeTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		A020A5E320E7EEA800827B5A = {
@@ -285,6 +303,7 @@
 		A078F86020E8011600700918 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				65C338532103A43D0078D239 /* Types */,
 				A078F88820E8018B00700918 /* Welcome */,
 				A078F86420E8011600700918 /* Pokemons */,
 			);
@@ -458,6 +477,7 @@
 				A078F87A20E8011600700918 /* DataTableViewController.swift in Sources */,
 				A078F87420E8011600700918 /* CellDecorator.swift in Sources */,
 				A050B93820F6A2360045CFCA /* SessionManager.swift in Sources */,
+				65C338562103A46B0078D239 /* TypeTableViewCell.swift in Sources */,
 				A078F87920E8011600700918 /* BaseView.swift in Sources */,
 				A077F81420F90FEF00B54E9D /* PokemonType.swift in Sources */,
 				A0857E4420F5797A004EC37F /* UIView+Animations.swift in Sources */,
