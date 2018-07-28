@@ -10,7 +10,7 @@ import UIKit
 
 class PokemonsViewController: BaseViewController {
     
-    //MARK: - Variables
+    //MARK: - Variables (Extract to PokemonsViewController+Constants)
     
     private let numberOfColumns: CGFloat = 3.0
     private let minSpacing: CGFloat = 3.0
@@ -33,6 +33,8 @@ class PokemonsViewController: BaseViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         self.searchBar.delegate = self
+        
+        //TODO: Group to method and extract to internal extension method
         registerPokemonCell()
         setCollectionViewSpacing()
         addPokedexLogo()
@@ -45,7 +47,7 @@ class PokemonsViewController: BaseViewController {
         loadData()
     }
     
-    //MARK: - Loading Data
+    //MARK: - Loading Data (Extract to Presenter)
     
     func loadData(name: String? = nil) {
         setProgress(to: true)
@@ -71,7 +73,7 @@ class PokemonsViewController: BaseViewController {
     
 }
 
-//MARK: - Search
+//MARK: - Search (Extract to +Ext file)
 extension PokemonsViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         loadData(name: searchText)
@@ -101,7 +103,7 @@ extension PokemonsViewController {
     }
 }
 
-//MARK: Decoration
+//MARK: Decoration (Extract to UIView+Styles)
 extension PokemonsViewController {
     private func decorateFilterButton() {
         filterButton.layer.cornerRadius = 10
@@ -137,7 +139,7 @@ extension PokemonsViewController: UICollectionViewDelegate, UICollectionViewData
     }
 }
 
-//MARK: - Base View
+//MARK: - Base View (Extract to +Ext file)
 extension PokemonsViewController: BaseView {
     func setProgress(to isLoading: Bool, with alpha: CGFloat? = nil, overlay: UIColor? = nil) {
         guard let parentView = self.parent?.view else { return }

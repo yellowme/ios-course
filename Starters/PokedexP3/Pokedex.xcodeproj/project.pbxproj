@@ -11,6 +11,8 @@
 		A020A5F720E7EEAA00827B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A020A5F620E7EEAA00827B5A /* Assets.xcassets */; };
 		A020A5FA20E7EEAA00827B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A020A5F820E7EEAA00827B5A /* LaunchScreen.storyboard */; };
 		A020A60220E7EF8400827B5A /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A020A60120E7EF8400827B5A /* UIColor+Additions.swift */; };
+		A0315FA8210CC0A10023CBE4 /* PokemonsContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0315FA7210CC0A10023CBE4 /* PokemonsContract.swift */; };
+		A0315FAA210CC1180023CBE4 /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0315FA9210CC1180023CBE4 /* UIView+Style.swift */; };
 		A050B92E20F6A2230045CFCA /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050B92D20F6A2230045CFCA /* Session.swift */; };
 		A050B93620F6A2360045CFCA /* LocelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050B92F20F6A2360045CFCA /* LocelKeys.swift */; };
 		A050B93820F6A2360045CFCA /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050B93220F6A2360045CFCA /* SessionManager.swift */; };
@@ -57,6 +59,8 @@
 		A020A5F920E7EEAA00827B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A020A5FB20E7EEAA00827B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A020A60120E7EF8400827B5A /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		A0315FA7210CC0A10023CBE4 /* PokemonsContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsContract.swift; sourceTree = "<group>"; };
+		A0315FA9210CC1180023CBE4 /* UIView+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; };
 		A050B92D20F6A2230045CFCA /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		A050B92F20F6A2360045CFCA /* LocelKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocelKeys.swift; sourceTree = "<group>"; };
 		A050B93220F6A2360045CFCA /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
@@ -297,6 +301,7 @@
 				A050B93B20F6AD9E0045CFCA /* Cell */,
 				A078F86620E8011600700918 /* Pokemons.storyboard */,
 				A078F86520E8011600700918 /* PokemonsViewController.swift */,
+				A0315FA7210CC0A10023CBE4 /* PokemonsContract.swift */,
 			);
 			path = Pokemons;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 				A078E4DB20F6828700D8C414 /* String+Ext.swift */,
 				A077F81520F912EC00B54E9D /* String+Formatter.swift */,
 				A077F81720F913C700B54E9D /* UIImageView+Ext.swift */,
+				A0315FA9210CC1180023CBE4 /* UIView+Style.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -461,6 +467,7 @@
 				A078F87920E8011600700918 /* BaseView.swift in Sources */,
 				A077F81420F90FEF00B54E9D /* PokemonType.swift in Sources */,
 				A0857E4420F5797A004EC37F /* UIView+Animations.swift in Sources */,
+				A0315FA8210CC0A10023CBE4 /* PokemonsContract.swift in Sources */,
 				A0857E4220F57878004EC37F /* UIViewController+Positions.swift in Sources */,
 				A077F81620F912EC00B54E9D /* String+Formatter.swift in Sources */,
 				A078E4DC20F6828700D8C414 /* String+Ext.swift in Sources */,
@@ -469,6 +476,7 @@
 				A078F87B20E8011600700918 /* AppDataSource.swift in Sources */,
 				A078F87720E8011600700918 /* BaseViewController.swift in Sources */,
 				A078F86D20E8011600700918 /* SimplePokemon.swift in Sources */,
+				A0315FAA210CC1180023CBE4 /* UIView+Style.swift in Sources */,
 				A078F88E20E8026800700918 /* WelcomeViewController.swift in Sources */,
 				A078F86C20E8011600700918 /* SimplePokemonCellDecorator.swift in Sources */,
 				A050B93A20F6A2360045CFCA /* SessionManagerProtocol.swift in Sources */,
