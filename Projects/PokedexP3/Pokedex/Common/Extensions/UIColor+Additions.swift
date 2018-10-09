@@ -9,6 +9,10 @@
 import UIKit
 
 extension UIColor {
+    @nonobjc class var transparent: UIColor {
+        return UIColor(white: 1.0, alpha: 0.0)
+    }
+
     @nonobjc class var textColor: UIColor {
         return UIColor(white: 1.0, alpha: 1.0)
     }

@@ -29,7 +29,7 @@ extension WelcomePresenter: WelcomeViewPresenter {
     }
     
     func chooseUsername(_ username: String?) {
-        self.view.setProgress(to: true)
+        self.view.setProgress(to: true, with: 0.6, overlay: .transparent)
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
             self.view.setProgress(to: false)
             let infoProcessed = self.validateInformation(username)

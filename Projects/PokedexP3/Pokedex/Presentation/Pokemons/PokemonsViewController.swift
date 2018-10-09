@@ -172,7 +172,7 @@ extension PokemonsViewController: BaseView {
                 options: BaseViewIndicatorOptions(
                     indicatorColor: .blue,
                     alpha: 0.6,
-                    overlayColor: .lightGray
+                    overlayColor: .transparent
                 )
             )
         } else {
